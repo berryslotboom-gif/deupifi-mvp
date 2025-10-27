@@ -1,0 +1,16 @@
+# Deupifi MVP
+
+## 🌍 Visie
+Deupifi is een universeel betaalplatform dat bruggen slaat tussen fiat en crypto.  
+Dit MVP demonstreert de kernfunctionaliteit: **routing**, **walletselectie** en **quoting**.
+
+## 🚀 Status
+- Routing: basislogica aanwezig
+- Wallet: minimale integratie
+- Quote: in ontwikkeling
+- API: voorbereid voor testnet
+
+## 🛠️ Installatie & gebruik
+1. Clone deze repository
+   ```bash
+   git clone https://github.com/<jouw-account>/deupifi-mvp.git
