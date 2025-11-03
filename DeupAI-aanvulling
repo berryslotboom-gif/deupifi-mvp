@@ -1,0 +1,19 @@
+# Ga naar je lokale clone
+cd /path/to/deupifi-mvp
+
+# Voeg de DeupAI-aanvulling PDF toe
+cp /path/to/Deupifi_DeupAI_Aanvulling.pdf ./docs/Deupifi_DeupAI_Aanvulling.pdf
+git add docs/Deupifi_DeupAI_Aanvulling.pdf
+
+# Commit met het aanbevolen bericht
+git commit -m "Add DeupAI federated learning, RL routing, XAI, provenance, smart-contract synthesis - depot snapshot"
+
+# Maak een annoted tag (aanbevolen)
+git tag -a v_depot_2025_11_02_deupai -m "Depot snapshot including DeupAI additions - 2025-11-02"
+
+# (optioneel) GPG-sign the tag (aanbevolen voor bewijs)
+git tag -s v_depot_2025_11_02_deupai -m "Signed depot snapshot v_depot_2025_11_02_deupai"
+
+# Push commit en tags
+git push origin main
+git push origin --tags
